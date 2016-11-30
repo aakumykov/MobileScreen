@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>События указателя</title>
+        <meta charset='UTF-8'/>
+        <link rel='stylesheet' href='css/index.css'>
+        <script type='text/javascript' src='js/lib/jquery/2.1.1/jquery.js'></script>
+        <script type='text/javascript' src='js/index.js'></script>
+        <script type='text/javascript' src='js/app.js'></script>
+        <script type='text/javascript' src='js/pointer.js'></script>
+        <script type='text/javascript' src='js/info.js'></script>
+    </head>
+    <body>
+        <div id='container'>
+            <fieldset class='area' id='jsMouse'>
+                <legend>JS: mouse</legend>
+            </fieldset>
+            
+            <fieldset class='area' id='jsTouch'>
+                <legend>JS: touch</legend>
+            </fieldset>
+            
+            <fieldset class='area'>
+                <legend>JQ-MOBILE: virtual</legend>
+            </fieldset>
+
+            <table id='info'>
+                <col width="64*">
+                <col width="64*">
+                <col width="64*">
+                <col width="64*">
+                <tr valign="top">
+                    <td id='mouse'>
+                        <p>mouse</p>
+                    </td>
+                    <td id='mousedown'>
+                        <p>down</p>
+                    </td>
+                    <td id='mouseup'>
+                        <p>up</p>
+                    </td>
+                    <td id='mousemove'>
+                        <p>move</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td id='touch'>
+                        <p>touch</p>
+                    </td>
+                    <td id='touchstart'>
+                        <p>start</p>
+                    </td>
+                    <td id='touchend'>
+                        <p>end</p>
+                    </td>
+                    <td id='touchmove'>
+                        <p>move</p>
+                    </td>
+                </tr>
+            </table>
+
+            <fieldset class='area'>
+                <legend>JQ: tap</legend>
+            </fieldset>
+
+            <fieldset class='area'>
+                <legend>SVG: mouse</legend>
+            </fieldset>
+
+            <fieldset class='area'>
+                <legend>SVG: touch</legend>
+            </fieldset>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
