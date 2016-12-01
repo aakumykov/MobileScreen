@@ -18,14 +18,22 @@
 	border: 1px solid blue;
 }
 
-.mousedown {
+.title {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 2px 4px;
+	font: 14px sans-serif;
+}
+
+.start {
 	background-color: YellowGreen;
 }
 
-.mousemove {
+.move {
 	background-color: Gold;
 }
 
-.mouseup {
+.finish {
 	background-color: Salmon;
 }
