@@ -17,7 +17,7 @@ var nativeTouch = {
 			}
 		});
 
-		area.addEventListener('touchend', function(ev){
+		area.addEventListener('touchend touchcancel', function(ev){
 			var element = ev.target;
 				element.pressed = false;
 			element.setAttribute('class', 'area finish');
